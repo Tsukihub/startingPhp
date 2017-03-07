@@ -1,7 +1,7 @@
 <?php
 $string="string";
-$int=5;
+$iNt=5;
 $float= 8.9;
 $bolean= true;
-echo $string, $int, $float, $bolean;
+echo $string, $iNt, $float, $bolean;
 ?>
