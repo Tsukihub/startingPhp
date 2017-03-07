@@ -12,11 +12,11 @@
 </header>
 	
 
-<a href='variable.php'>exo1</a>	
+<a href='condition.php'>exo2</a>	
 
 
 
-<a href="variable.php">ex1</a>
+
 
 <footer>
 	
