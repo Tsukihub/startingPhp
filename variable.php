@@ -1,5 +1,12 @@
 <?php
 
+$v1= 3+4;
+$v2= 5*20;
+$v3= 45/5;
+echo ($v1."<br/>".$v2."<br/>".$v3);
+
+
+
 $nom6 = "j'aimelesconsignesecrites";
 echo ("bonjour ".$nom6." ,comment vas-tu.");
 
@@ -36,3 +43,4 @@ $nommaster = 5;
 echo $nommaster;
 
 ?>
+
