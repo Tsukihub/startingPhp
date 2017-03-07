@@ -7,6 +7,7 @@
 <body>
 <header>
 	
+
 </header>
 <a href="variable.php">ex1</a>
 <footer>
