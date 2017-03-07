@@ -1,5 +1,12 @@
 <?php
 
+$string="string";
+$iNt=5;
+$float= 8.9;
+$bolean= true;
+echo $string, $iNt, $float, $bolean;
+?>
+
 $km=1;
 echo $km;
 $km=3;
