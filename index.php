@@ -5,10 +5,10 @@
 	<title>S</title>
 </head>
 <body>
-<head>
+<header>
 	
-</head>
-<?php include 'variable.php' ?>	
+</header>
+<a href="variable.php">ex1</a>
 <footer>
 	
 </footer>

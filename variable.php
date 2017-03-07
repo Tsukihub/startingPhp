@@ -1,4 +1,4 @@
 <?php
-$nom = 5;
+$nommaster = 5;
 echo $nom;
 ?>
