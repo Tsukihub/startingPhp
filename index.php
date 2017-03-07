@@ -5,12 +5,18 @@
 	<title>S</title>
 </head>
 <body>
+
 <header>
 	
 </header>
 	
 
 <a href='variable.php'>exo1</a>	
+
+
+
+<a href="variable.php">ex1</a>
+
 <footer>
 	
 </footer>
