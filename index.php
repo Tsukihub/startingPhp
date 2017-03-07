@@ -8,7 +8,7 @@
 <head>
 	
 </head>
-<?php include 'variable.php' ?>	
+<a href="variable.php">ex2</a>	
 <footer>
 	
 </footer>
