@@ -5,8 +5,10 @@
 	<title>S</title>
 </head>
 <body>
-<header></header>
-	
+
+<header>
+
+</header>
 <a href="variable.php">ex1</a>
 <footer>
 	
