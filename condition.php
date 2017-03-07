@@ -6,4 +6,14 @@ if ($age>=18){
 }else{
 	echo ('vous êtes mineur');
 }
+
+
+$iseasy=false;
+if ($iseasy){
+	echo ('facile'); 
+}else{
+	echo ('c difficile');
+}
+
+
 ?>
