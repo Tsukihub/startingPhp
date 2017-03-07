@@ -2,7 +2,7 @@
 $noM = 6;
 $prenom = 7;
 $age = 8;
-echo $nom;
+echo $noM;
 echo $prenom;
 echo $age;
 
