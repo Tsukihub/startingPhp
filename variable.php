@@ -1,4 +1,7 @@
 <?php
-$nom = 5;
-echo $nom;
+$int=NULL;
+echo ("var int".$int."<br/>");
+$int=9;
+echo $int;
+
 ?>
