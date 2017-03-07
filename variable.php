@@ -1,6 +1,6 @@
 <?php
-$no_m= "jean";
-$pre_nom="claude";
-$ag_e=99;
-echo ($no_m.$pre_nom."tu as".$ag_e."ans.");
+$v1= 3+4;
+$v2= 5*20;
+$v3= 45/5;
+echo ($v1."<br/>".$v2."<br/>".$v3);
 ?>
