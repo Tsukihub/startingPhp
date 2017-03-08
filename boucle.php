@@ -6,4 +6,13 @@ while ( $zeroadix < 10) {
 }
 
 
+echo "<br/>";
+
+$var1=0;
+$var2=77;
+while ($var1 <=20){
+	echo ("<br/>".($var1*$var2));
+	$var1 ++;
+}
+
 ?>
