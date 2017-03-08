@@ -39,7 +39,7 @@ echo "ex 8 :<br/> ";
 echo "boucle ";
 echo "<br/> ";
 for ($i=0; $i<count($mois); $i++) { 
-	echo $mois[$i];
+	echo $mois[$i]." ";
 	
 }
 echo "<br/> ";

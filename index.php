@@ -16,6 +16,8 @@
 <a href='boucle.php'>exercice 3</a> 
 <a href='fonction.php'>exercice 4</a>
 <a href='tableau.php'>exercice 5</a>
+<a href='parametre.php'>paramètre</a>
+
 
 
 
