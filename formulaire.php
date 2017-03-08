@@ -7,7 +7,7 @@
 </head>
 <body>
 
-    <form action="user.php" method="get">
+<!--     <form action="user.php" method="get">
       <fieldset>
         <legend>Get</legend>
           <p>
@@ -16,23 +16,23 @@
           </p>
           <p>
             <label for="nom">Nom :</label> 
-            <input type="nom" name="motDePasse" id="nom" value="" /> 
+            <input type="text" name="nom" id="nom" value="" /> 
             <input type="submit" name="submit" value="Envoyer" />
           </p>
       </fieldset>
-    </form>
+    </form> -->
 
 
-    <form action="user.php" method="Post">
+    <form action="user.php" method="post">
       <fieldset>
         <legend>Post</legend>
           <p>
-             <label for="prenom">Prenom</label> 
-            <input type="text" name="prenom" id="prenom" value="">
+            <label for="prenom">Prenom</label> 
+            <input type="text" name="prenom" id="prenom">
           </p>
           <p>
             <label for="nom">Nom :</label> 
-            <input type="nom" name="motDePasse" id="nom" value="" /> 
+            <input type="text" name="nom" id="nom"/> 
             <input type="submit" name="submit" value="Envoyer" />
           </p>
       </fieldset>
