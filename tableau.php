@@ -36,11 +36,15 @@ $hautDeFrance[51]="Marne";
 var_dump($hautDeFrance); 
 echo "<br/> ";
 echo "ex 8 :<br/> ";
-
+echo "boucle ";
+echo "<br/> ";
 for ($i=0; $i<count($mois); $i++) { 
 	echo $mois[$i];
 	
 }
+echo "<br/> ";
+echo "ex 8 :<br/> ";
+echo "foreach ";
 echo "<br/> ";
 foreach ($mois as $affichage) {
 	echo $affichage."<br/>";
@@ -51,6 +55,10 @@ foreach ($hautDeFrance as $key => $value) {
 	# code...
 }
 echo "ex 10 :<br/> ";
+foreach ($hautDeFrance as $key => $value) {
+	echo "Le département: ".$value." a pour numéro ".$key."."."<br/>";
+	# code...
+}
 ?>
 </div>
 </body>
