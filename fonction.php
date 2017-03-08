@@ -18,6 +18,7 @@ echo True();
 echo "<br/>";
 
 $string="jean";
+$string2="claude";
 
 function True2($string){
 	return $string;
@@ -27,6 +28,14 @@ echo True2($string);
 
 echo "<br/>";
 
+
+function True3($string, $string2){
+	return ($string.$string2);
+}
+echo True3($string, $string2);
+
+
+echo "<br/>";
 // $var1=0;
 // $var2=rand ( 1 , 100 );
 // while ($var1 <=20){
