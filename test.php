@@ -14,11 +14,46 @@ if (True() == true){
 			echo "exo3 ok <br/>";
 
 
-			// if (){
-			// 	echo "exo4 ok <br/>";
-			// }else{
-			// 	echo ("exo 4 failed <br/>");
-			// }
+			if (True4(1, 1)=="les deux nombres sont identique"){
+				if (True4(1, 70)==" le deuxieme est + gd"){
+					if (True4(70, 1)=="le premier est le plus grand"){
+						echo "exo 4 ok <br/>";
+						
+
+						if (concat("jean", 45)=="jean45"){
+							echo ("exo 5 ok <br/>");
+
+
+							if (bonjour('n', 're', 'i')=="bonjour n re tu as i ans"){
+							echo ("exo 6 ok <br/>");				
+
+							}else{
+							echo ("exo 6 failed <br/>");
+							}
+
+
+
+
+						}else{
+						echo ("exo 5 failed <br/>");
+						}
+
+
+
+
+
+
+
+					}else{
+				echo ("exo 4 failed prem + gd <br/>");
+			}
+
+				}else{
+				echo ("exo 4 failed 2 + gd <br/>");
+			}
+			}else{
+				echo ("exo 4 failed 2 id <br/>");
+			}
 
 
 		}else{

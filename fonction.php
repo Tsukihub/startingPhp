@@ -37,20 +37,20 @@ echo True3($string, $string2);
 
 echo "<br/>";
 $nb1=1;
-$nb2=1;
+$nb2=2;
 function True4($nb1, $nb2){
 	$nb3=$nb1-$nb2;
-	switch ($nb3) {
-    case ($nb3>0):
+	echo "$nb3";
+
+if ($nb3 == 0) {
+    return "les deux nombres sont identique";
+} elseif ($nb3>0){
         return "le premier est le plus grand";
-        break;
-    case 0:
-        return "les deux nombres sont identique";
-        break;
-    case ($nb3<0):
-        return " Ne cause pas de dégats mais commence à pouvoir être légèrement ressenti.";
-        break;
-    }
+} elseif ($nb3<0){
+        return " le deuxieme est + gd";
+}
+
+
 }
 
 echo True4($nb1, $nb2);
@@ -61,6 +61,17 @@ function concat($string, $nb1){
 }
 
 echo concat($string, $nb1);
+
+
+$nom="jean";
+$prenom="jean";
+$age="34";
+echo "<br/>";
+function bonjour($nom, $prenom, $age){
+	return ("bonjour ".$nom." ".$prenom." tu as ".$age." ans");
+}
+
+echo bonjour($nom, $prenom, $age);
 
 echo "</div>";
 
