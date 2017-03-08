@@ -57,5 +57,34 @@ switch ($magnitude) {
         echo " Séisme capable de tout détruire sur une très vaste zone.";
         break;
 }
-  
-?>
+ 
+echo "<br/>";
+
+$maVariable="homme";
+	if ($maVariable!="homme"){
+ echo "C'est une développeuse !!!";
+}else{
+	echo "C'est un développeur !!!";
+
+}
+
+	if ($maVariable== false){
+ echo'c\'est ok !!';
+}else{
+	echo 'c\'est pas bon !!!';
+
+}
+
+	if ($monAge >= 18){
+ echo'Tu es majeur';
+}else{
+	echo 'Tu n\'es pas majeur';
+
+}
+
+	if ($maVariable){
+ echo "c'est ok !!";
+}else{
+	echo "c'est pas bon !!!";
+
+}
