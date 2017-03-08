@@ -32,7 +32,25 @@ echo "<br/> ";
 echo "ex 6 :<br/> ";
 echo $hautDeFrance[59]."<br/>";
 echo "ex 7 :<br/> ";
+$hautDeFrance[51]="Marne";
+var_dump($hautDeFrance); 
+echo "<br/> ";
+echo "ex 8 :<br/> ";
 
+for ($i=0; $i<count($mois); $i++) { 
+	echo $mois[$i];
+	
+}
+echo "<br/> ";
+foreach ($mois as $affichage) {
+	echo $affichage."<br/>";
+}
+echo "ex 9 :<br/> ";
+foreach ($hautDeFrance as $key => $value) {
+	echo $key." : ".$value."<br/>";
+	# code...
+}
+echo "ex 10 :<br/> ";
 ?>
 </div>
 </body>
