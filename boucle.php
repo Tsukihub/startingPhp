@@ -3,9 +3,10 @@
 <head>
 	<meta charset="UTF-8">
 	<title>boucles</title>
+	<link rel="stylesheet" href="style/css/style.css">
 </head>
 <body>
-	
+<h1>Boucle la</h1>
 
 <?php
 $zeroadix=0;
@@ -41,8 +42,15 @@ while ($incrementdemi<=10){
 	$incrementdemi=$incrementdemi+($incrementdemi/2);
 }
 
+echo "<br/>";
+
 for ($i=1; $i <=15 ; $i++) { 
 	echo ("<br/>"."on y arrive presque");
+	# code...
+}
+
+for ($k=20; $k >=0 ; $k--) { 
+	echo ("<br/>"."c presk bon");
 	# code...
 }
 ?>
