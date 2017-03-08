@@ -102,6 +102,13 @@ function agesexe($age, $genre){
 }
 echo "<br/>";
 echo agesexe($age, $genre);
+echo "<br/>";
+
+function somme($nb5=1, $nb6=5, $nb8=9){
+	return ($nb5+$nb6+$nb8);
+}
+
+echo somme(10, 10, 10);
 echo "</div>";
 
 

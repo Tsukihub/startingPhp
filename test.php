@@ -37,6 +37,24 @@ if (True() == true){
 												if (agesexe(18, "hom")=="genre non valide"){
 													echo ("exo 7 ok <br/>");
 
+
+													if (somme()==15){
+														if (somme(1,1,1)==3){
+															echo "exo 8 ok";
+
+
+														}else{
+														echo "ex 8 somme somme arguments donnés fail";
+													}
+													}else{
+														echo "ex 8 somme défault fail";
+													}
+
+
+
+
+
+
 												}else{
 													echo ("exo 7 failed genre nn valide<br/>");
 											}
