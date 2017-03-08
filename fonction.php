@@ -6,7 +6,7 @@
 	<link rel="stylesheet" href="style/css/style.css">
 </head>
 <body>
-<h1>Boucle la</h1>
+<h1>fonction</h1>
 
 <?php
 echo "<div>";
@@ -73,6 +73,35 @@ function bonjour($nom, $prenom, $age){
 
 echo bonjour($nom, $prenom, $age);
 
+
+
+
+$age=67;
+$genre='femme';
+
+function agesexe($age, $genre){
+	if ($genre=='homme'){
+		
+		if ($age>=18){
+			return ('vous êtes un homme majeur');
+		}else{
+			return ('vous êtes un homme mineur');
+		}
+		 
+	}else if ($genre=='femme') {
+		if ($age>=18){
+		return ('vous êtes un femme majeur');
+	}else{
+		return ('vous êtes une femme mineur');
+	}
+	
+		
+	}else{
+		return "genre non valide";
+	}
+}
+echo "<br/>";
+echo agesexe($age, $genre);
 echo "</div>";
 
 
