@@ -36,12 +36,39 @@ echo True3($string, $string2);
 
 
 echo "<br/>";
-// $var1=0;
-// $var2=rand ( 1 , 100 );
-// while ($var1 <=20){
-// 	echo ("<br/>".($var1*$var2));
-// 	$var1 ++;
+$nb1=1;
+$nb2=1;
+function True4($nb1, $nb2){
+	$nb3=$nb1-$nb2;
+	switch ($nb3) {
+    case ($nb3>0):
+        return "le premier est le plus grand";
+        break;
+    case 0:
+        return "les deux nombres sont identique";
+        break;
+    case ($nb3<0):
+        return " Ne cause pas de dégats mais commence à pouvoir être légèrement ressenti.";
+        break;
+    }
+}
+
+echo True4($nb1, $nb2);
+
+echo "<br/>";
+function concat($string, $nb1){
+	return ($string.$nb1);
+}
+
+echo concat($string, $nb1);
+
 echo "</div>";
+
+
+
+
+
+
 ?>
 
 </body>
