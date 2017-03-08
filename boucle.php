@@ -41,6 +41,10 @@ while ($incrementdemi<=10){
 	$incrementdemi=$incrementdemi+($incrementdemi/2);
 }
 
+for ($i=1; $i <=15 ; $i++) { 
+	echo ("<br/>"."on y arrive presque");
+	# code...
+}
 ?>
 
 </body>
