@@ -17,6 +17,7 @@
 <a href='fonction.php'>exercice 4</a>
 <a href='tableau.php'>exercice 5</a>
 <a href='parametre.php'>paramètre</a>
+<a href='formulaire.php'>Formulaire</a>
 
 
 
