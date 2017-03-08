@@ -1,7 +1,16 @@
 body {
-  background-color: red; }
+  background-color: orange;
+  margin: 0 auto;
+  padding: 0 auto;
+  width: 1200px; }
   body h1 {
-    color: purple;
-    text-decoration: underline; }
+    color: lime;
+    text-decoration: underline;
+    width: 80%;
+    margin: 0 auto;
+    padding: 0 auto;
+    text-align: center;
+    background-color: purple;
+    position: fixed; }
 
 /*# sourceMappingURL=style.css.map */

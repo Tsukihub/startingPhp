@@ -53,6 +53,10 @@ for ($k=20; $k >=0 ; $k--) {
 	echo ("<br/>"."c presk bon");
 	# code...
 }
+for ($l=1; $l <=100 ; $l+=15) { 
+	echo ("<br/>"."on tient le bon bout");
+	# code...
+}
 ?>
 
 </body>
