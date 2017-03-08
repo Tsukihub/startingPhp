@@ -33,7 +33,7 @@ if(isset($_POST['nom']) AND isset($_POST['prenom'])) {
             <input type='text' name='nom' id='nom' /> 
             <input type='submit' name='submit' value='Envoyer' />
           </p>
-          <SELECT name='nom' size='1'>
+          <SELECT name='civilité' size='1'>
 			<OPTION>mr
 			<OPTION>mme
 		  </SELECT>
@@ -55,7 +55,7 @@ if(isset($_POST['nom']) AND isset($_POST['prenom'])) {
             <input type='text' name='nom' id='nom' /> 
             <input type='submit' name='submit' value='Envoyer' />
           </p>
-          <SELECT name='nom' size='1'>
+          <SELECT name='civilité' size='1'>
 			<OPTION>mr
 			<OPTION>mme
 		  </SELECT>
