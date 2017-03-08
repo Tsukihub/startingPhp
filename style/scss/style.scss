@@ -1,6 +1,7 @@
 html{
 width: 1200px;
 
+
 }
 body{
 	display: flex;
@@ -8,6 +9,17 @@ body{
 	margin: 0 auto;
 	width: 1200px;
 	text-align: center;
+	div{
+		margin-top: 100px;
+		padding-top: 100px;
+		text-align: justify;
+		margin: 100px auto;
+		padding: 20px;
+		border: solid 5px lime; 
+		line-height: 20px;
+		color: lime;
+		background-color: black;
+	}
 	h1{
 		color: lime;
 		text-decoration: underline;
@@ -21,5 +33,4 @@ body{
 	position: fixed;
 	}
 }
-
 
