@@ -57,6 +57,11 @@ for ($l=1; $l <=100 ; $l+=15) {
 	echo ("<br/>"."on tient le bon bout");
 	# code...
 }
+
+for ($y=200; $y >=0 ; $y-=12) { 
+	echo ("<br/>"."enfin!!!!");
+	# code...
+}
 ?>
 
 </body>
